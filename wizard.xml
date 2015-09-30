@@ -18,6 +18,6 @@
 		<file source="file/src/main.c" target="file/src/main.c"/>
 		<file source="file/src/phisic.c" target="file/src/phisic.c"/>
         
-        <file source="Makefile"    target="Makefile"/>
+        <file source="file/Makefile"    target="file/Makefile"/>
     </files>
 </wizard>
