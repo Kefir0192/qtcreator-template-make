@@ -3,9 +3,9 @@
 
 
 
-// Peripheral initialization
+// Hardware initialization
 //------------------------------------------------------
-void Init_Hardware(void);
+void Hardware_Init(void);
 // MAIN
 //------------------------------------------------------
 int main(void);

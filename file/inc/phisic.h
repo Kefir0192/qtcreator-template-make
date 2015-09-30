@@ -3,9 +3,9 @@
 
 
 
-// Initialize clock
+// Initialize oscillator
 //------------------------------------------------------
-void Oscillator_int(void);
+void Oscillator_Init(void);
 // Initialization GPIO
 //------------------------------------------------------
 void Port_Init(void);

@@ -1,13 +1,13 @@
-﻿#include "inc/GlobalIncludeFile.h"
-#include "inc/main.h"
-#include "inc/phisic.h"
+﻿#include "globalincludefile.h"
+#include "main.h"
+#include "phisic.h"
 
 
 
 //------------------------------------------------------
-// Initialize clock
+// Initialize oscillator
 //------------------------------------------------------
-void Oscillator_int(void)
+void Oscillator_Init(void)
 {
 
 }

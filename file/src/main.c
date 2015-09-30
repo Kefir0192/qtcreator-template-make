@@ -5,12 +5,12 @@
 
 
 //------------------------------------------------------
-// Peripheral initialization
+// Hardware initialization
 //------------------------------------------------------
-void Init_Hardware(void)
+void Hardware_Init(void)
 {
-	// Initialize clock
-    Oscillator_int();
+	// Initialize oscillator
+    Oscillator_Init();
 	// Initialization GPIO
     Port_Init();
 }
@@ -20,8 +20,8 @@ void Init_Hardware(void)
 //------------------------------------------------------
 int main(void)
 {
-    // Peripheral initialization
-    Init_Hardware();
+    // Hardware initialization
+    Hardware_Init();
 
     while(1) {
 
