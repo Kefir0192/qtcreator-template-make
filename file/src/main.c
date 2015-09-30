@@ -9,9 +9,9 @@
 //------------------------------------------------------
 void Hardware_Init(void)
 {
-	// Initialize oscillator
+    // Initialize oscillator
     Oscillator_Init();
-	// Initialization GPIO
+    // Initialization GPIO
     Port_Init();
 }
 
