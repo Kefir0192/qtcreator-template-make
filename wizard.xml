@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wizard version="1" kind="project"
+        class="" firstpage="10"
+        id="A.Make" category="B.File">
+    <icon>colored_gnu_logo.png</icon>
+    <description>Create a project based on Makefile.</description>
+    <displayname>New Project</displayname>;
+    <displaycategory>Make</displaycategory>
+    <files>
+        <file source="project.creator"  target="%ProjectName%.creator" openproject="true"/>
+        <file source="project.includes" target="%ProjectName%.includes"/>
+        <file source="project.files"    target="%ProjectName%.files"/>
+		
+		<file source="file/inc/globalincludefile.h" target="file/inc/globalincludefile.h"/>
+		<file source="file/inc/main.h" target="file/inc/main.h"/>
+		<file source="file/inc/phisic.h" target="file/inc/phisic.h"/>
+		
+		<file source="file/src/main.c" target="file/src/main.c"/>
+		<file source="file/src/phisic.c" target="file/src/phisic.c"/>
+        
+        <file source="Makefile"    target="Makefile"/>
+    </files>
+</wizard>

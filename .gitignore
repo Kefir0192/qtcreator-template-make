@@ -1,0 +1,14 @@
+# ALl
+*.png
+
+
+
+
+# Temp files
+*.*~
+
+
+
+
+# Files that we don't want to ignore
+!.gitignore
