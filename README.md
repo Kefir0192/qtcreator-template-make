@@ -1,6 +1,6 @@
-# Шаблон для создания нового проекта.
+# Template for creating a new project.
 
-
+#### Tree qtcreator-template-make:
 ```
 file
    +-- bin
