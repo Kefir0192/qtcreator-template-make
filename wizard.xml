@@ -11,6 +11,8 @@
         <file source="project.includes" target="%ProjectName%.includes"/>
         <file source="project.files"    target="%ProjectName%.files"/>
 		
+		<file source="file/bin/readme.txt" target="file/bin/readme.txt"/>
+		
 		<file source="file/inc/globalincludefile.h" target="file/inc/globalincludefile.h"/>
 		<file source="file/inc/main.h" target="file/inc/main.h"/>
 		<file source="file/inc/phisic.h" target="file/inc/phisic.h"/>
