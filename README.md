@@ -16,8 +16,11 @@ file
    |
    +-- Makefile
 ```
-#Memo
-Copy to: /opt/Qt/Tools/QtCreator/share/qtcreator/templates/wizards
+####Memo
+Copy to:
+```
+/opt/Qt/Tools/QtCreator/share/qtcreator/templates/wizards
+```
 
 ## License
 
